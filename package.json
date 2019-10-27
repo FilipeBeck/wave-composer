@@ -1,0 +1,30 @@
+{
+  "name": "wave-composer",
+  "version": "0.0.1",
+  "description": "Estudo com ondas",
+  "main": "scripts/main.js",
+  "author": "Filipe Roberto Beck",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp",
+    "start": "electron ./app/scripts/main.js"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.4",
+    "@types/react-dom": "^16.9.1",
+    "@types/react-redux": "^7.1.4",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
+    "pipe-builder": "^0.0.4",
+    "sass": "^1.23.0",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "electron": "^6.0.11",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4"
+  }
+}

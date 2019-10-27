@@ -1,0 +1,32 @@
+.WaveControl {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	& > label {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		&:not(:first-child) {
+			margin-left: 40px;
+		}
+		& > span {
+			font-size: 18px;
+			font-weight: bold;
+		}
+		& > input {
+			margin-left: 10px;
+			padding: 10px;
+			font-size: 20px;
+		}
+	}
+	& > button {
+		margin-left: 80px;
+		padding: 10px 20px;
+		border: none;
+		color: white;
+		background-color: rgb(185, 26, 26);
+		font-size: 20px;
+		font-weight: bold;
+		cursor: pointer;
+	}
+}
